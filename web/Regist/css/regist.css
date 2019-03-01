@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS reset */
+/*.w1060{ width:1060px; height:auto; margin:0 auto;}*/
+.padding_nei{ /*写padding不撑开*/
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.main01 .sousuo div{    
+	-webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius:17px;
+    -o-border-radius:17px; 
+	border-radius:17px;	
+	}
+	
+.w1100{ width:1100px; height:auto; margin:0 auto;}
+.w1096{ width:1096px; height:auto; margin:0 auto;}
+
+/*注册页面*/
+.zhuce_body .zhuce_kong{ position:absolute; top:50%; left:50%; width:600px; height:478px; margin-left:-300px; margin-top:-239px;}
+.zhuce_body .zhuce_kong .zc{width:600px; height:408px;}
+.zhuce_body .zhuce_kong .zc .bj_bai{ float:left; width:314px; height:408px; padding-left:50px; background:#FFF;}
+.zhuce_body .zhuce_kong .zc .bj_bai h3{ font:16px/70px "微软雅黑", "黑体"; color:#333333; width:270px; text-align:center;}
+.zhuce_body .zhuce_kong .zc .bj_right{ float:left;width:185px; height:408px; padding-left:51px; background:#f8f8f8;}
+.zhuce_kong > p{font:16px/70px "微软雅黑", "黑体"; text-align:center; color:#fff;}
+.zhuce_body .zhuce_kong .zc .bj_bai .kuang_txt{ width:236px; height:32px; border:1px solid #dddddd; line-height:32px; padding-left:32px; color:#b1a9a9;  margin-bottom:10px; }
+.zhuce_body .zhuce_kong .zc .bj_bai .btn_zhuce{ width:270px; height:33px; background:#37b5f9; font-size:14px; line-height:33px; text-align:center; border:0px; color:#fff; border-radius:3px; cursor:pointer;}
+
+.zhuce_body .zhuce_kong .zc .bj_bai .name{background:url(images/zc_1.jpg) no-repeat 10px 10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .email{background:url(images/zc_4.jpg) no-repeat 10px 10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .possword{background:url(images/zc_2.jpg) no-repeat 10px 10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .possword2{background:url(images/zc_3.jpg) no-repeat 10px 10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .kuang_txt_identity{ height:10px;}
+.zhuce_body .zhuce_kong .zc .bj_bai .hui_kuang{ float:left; width:97px; height:31px; border:1px solid #dddddd;}
+
+.zhuce_body .zhuce_kong .zc .bj_bai div{ float:left; width:100%; line-height:43px;}
+.zhuce_body .zhuce_kong .zc .bj_bai div input{ float:left; margin-top:15px;}
+.zhuce_body .zhuce_kong .zc .bj_bai div span{ padding-left:5px;}
+.zhuce_body .zhuce_kong .zc .bj_bai div .lan{ color:#19aaf8; padding-left:0px;}
+
+
+
